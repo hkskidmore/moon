@@ -47,7 +47,8 @@ Send an email to [market@pixels.camp](mailto:market@pixels.camp) with the follow
  * Title of what you're selling.
  * A small description of what you're selling, with possible duration of service, if it applies (1 paragraph).
  * You e-mail and slack contacts.
- * An optional URL to a page that explains your service in more detail.
+ * Your wallet address.
+ * The price of the service you're providing in EXP.
 
 Our team will look into your application and decide if it's suitable to enter the market. If it is, the bot will list it, and anyone can buy it from then on.
 
