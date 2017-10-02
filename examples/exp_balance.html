@@ -7,7 +7,9 @@
     </body>
     <script type="text/javascript">
 
-    var wallet= '0x48e6f88f863c3178f470d92f799c6959fe98e2fe'; // public address to get EXP balance
+    var wallet= '0xaee294c4bed20209d5a66add5a77ae482db872f5'; // public address to get EXP balance
+    var block = "latest";
+    var block = "0x6e84b" // end of the projects presentation + angels investments 
 
     var rpc = 'https://moon.pixels.camp:8549';
     post(rpc,
@@ -19,7 +21,7 @@
                     "to": '0x0ce335bb2d04595c84e3d444675360f64de386e8', // don't change this
                     "data": '0x70a08231000000000000000000000000' + wallet.substr(2),
                 },
-            "latest"
+            block
             ],
             "id": 1
         }, function(r) {
